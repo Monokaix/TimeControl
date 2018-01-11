@@ -6,7 +6,10 @@
 #
 default: &default
   adapter: sqlite3
+  encoding: utf8
   pool: 5
+  username: duweijing
+  password: 
   timeout: 5000
 
 development:
