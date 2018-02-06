@@ -1,15 +1,51 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- */
+ *= require_tree . 
+*/
+
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+	color: #444;
+	margin: 0px;
+	padding: 0px; 
+}
+
+div.centered {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d0deea;
+}
+
+.errorCell {
+	color: red;
+	font-size: small;
+	padding-bottom: 5px;
+}
+
+table#userBar {
+	width: 100%;
+	background-color: #ddd;
+}
+
+a:link {
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-weight: bold;
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ef6161;
+	text-decoration: none;
+}

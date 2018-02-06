@@ -1,2 +1,0 @@
-# TimeControl
-HW For SE

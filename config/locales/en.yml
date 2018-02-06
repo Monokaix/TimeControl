@@ -1,23 +1,42 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  login: "Login"
+  logout: "Logout"
+  username: "Name" 
+  register: "Register"
+  name: "Name"
+  password: "Password"
+  submit: "Login"
+  admin: "Administration"
+  save: "Save"
+  add_course: "Add course"
+  remove_course: "Remove course"
+  confirm_teacher_delete: "Are you sure?"
+  
+  timetable: "Timesheet"
+  edit_timetable: "Edit timesheet"
+  new_teacher: "Add new teacher"
+  edit_teacher: "Edit teacher"
+  hour: "Hour"
+  monday: "Monday"
+  tuesday: "Tuesday"
+  wednesday: "Wednesday"
+  thursday: "Thursday"
+  friday: "Friday"
+  
+  hours: "Hours"
+  week: "Week"
+  
+  confirm_delete: "Are you sure?"
+  
+  teacher: "Teacher"
+  edit: "Edit"
+  
+  course_title: "Course title:"
+  course_code: "Code:"
+  course_description: "Description:"
+  course_semester: "Semester:"
+  
+  edit_timesheet: "Edit timesheet"
